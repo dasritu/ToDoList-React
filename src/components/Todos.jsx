@@ -36,7 +36,7 @@ export default function Todos() {
     if (editIndex !== null) {
       setTodos(finaltodo[editIndex]);
     }
-  }, [editIndex]);
+  }, [editIndex,finaltodo]);
 
   const addTodo = (e) => {
     e.preventDefault();
