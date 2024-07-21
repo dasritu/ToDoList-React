@@ -1,12 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Timer from "./components/Timer";
-
+import Todos from "./components/Todos";
 function App() {
   return (
     <div className="App">
-      
-      <Timer/>
+      <h1 className="text-heading">Get Things Listed</h1>
+      <Todos />
     </div>
   );
 }
